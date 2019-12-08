@@ -19,9 +19,21 @@ En el archivo `euler.py`:
 1. Implemente la función `e_cuadratica` con un algoritmo que resuelva el problema en complejidad temporal cuadrática.
 2. Implemente la función `e_lineal` con un algoritmo que resuelva el problema en complejidad temporal lineal.
 
-## Cómo correr las pruebas localmente
+## Cómo instalar el ambiente de desarrollo y ejecutar las pruebas localmente
 
-Este proyecto requiere Python3.
+Este proyecto requiere `python3`. Asegúrese que esté instalado en su distribución de linux.
+
+Si no lo ha hecho anteriormente, crear un ambiente virtual para las dependencias
+
+```bash
+python3 -m venv .venv
+```
+
+Activar el ambiente virtual
+
+```bash
+source .venv/bin/activate
+```
 
 Instalar las dependencias
 
@@ -29,7 +41,7 @@ Instalar las dependencias
 pip3 install -r requirements.txt
 ```
 
-Y luego ejecutar las pruebas
+Ejecutar las pruebas
 
 ```bash
 pytest -s -W ignore::DeprecationWarning
