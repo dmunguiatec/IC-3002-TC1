@@ -21,7 +21,7 @@ En el archivo `euler.py`:
 
 ## Cómo instalar el ambiente de desarrollo y ejecutar las pruebas localmente
 
-Este proyecto requiere `python3`. Asegúrese que esté instalado en su distribución de linux.
+Este proyecto requiere `python3`. Asegúrese que esté instalado en su distribución de linux. Las siguientes instrucciones asumen que ud está dentro del directorio del proyecto.
 
 Si no lo ha hecho anteriormente, instalar `gnuplot`
 
