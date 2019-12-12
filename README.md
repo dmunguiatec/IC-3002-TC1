@@ -23,6 +23,12 @@ En el archivo `euler.py`:
 
 Este proyecto requiere `python3`. Asegúrese que esté instalado en su distribución de linux.
 
+Si no lo ha hecho anteriormente, instalar `gnuplot`
+
+```bash
+sudo apt update && sudo apt install gnuplotlib
+```
+
 Si no lo ha hecho anteriormente, crear un ambiente virtual para las dependencias
 
 ```bash
@@ -59,7 +65,7 @@ pytest -s -W ignore::DeprecationWarning
 
 * (5 pts) El código pasa exitosamente todas las pruebas automatizadas.
 * (3 pts) El código pasa la mayoría de las pruebas automatizadas.
-* (1 pts) El código no pasa la la mayoría de las pruebas automatizadas.
+* (1 pts) El código no pasa la mayoría de las pruebas automatizadas.
 
 ### Análisis y diseño (5 pts)
 
