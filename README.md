@@ -26,7 +26,7 @@ Este proyecto requiere `python3`. Asegúrese que esté instalado en su distribuc
 Si no lo ha hecho anteriormente, instalar `gnuplot`
 
 ```bash
-sudo apt update && sudo apt install gnuplotlib
+sudo apt update && sudo apt install gnuplot
 ```
 
 Si no lo ha hecho anteriormente, crear un ambiente virtual para las dependencias
